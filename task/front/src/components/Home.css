@@ -1,0 +1,101 @@
+/* Home.css */
+
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #333; /* Default text color */
+}
+
+/* App container */
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f4f4f4;
+}
+
+/* Dashboard container */
+.dashboard {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 80%;
+  max-width: 1000px;
+}
+
+/* Header section */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+/* Logout button */
+.logout-button {
+  background-color: #f44336;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.logout-button:hover {
+  background-color: #d32f2f;
+}
+
+/* Main content */
+.body {
+  margin-top: 20px;
+}
+
+/* Image container */
+.image-container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+/* Image links */
+.image-container a {
+  text-decoration: none;
+  margin: 0 20px;
+}
+
+/* Images */
+.image-container img {
+  width: 150px;
+  height: auto;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+.image-container img:hover {
+  transform: scale(1.05);
+}
+
+/* Section headings */
+h2 {
+  font-size: 1.5rem;
+  margin-top: 20px;
+}
+
+/* Section content */
+p {
+  line-height: 1.6;
+  margin-top: 10px;
+}
+
+/* Custom text color for h1 */
+h1 {
+  color: #007bff; /* Blue color for h1 */
+}
